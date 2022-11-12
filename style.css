@@ -67,3 +67,40 @@ body {
   color: #2e2e2e;
   box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 300px var(--clr);
 }
+
+.container .box .content .text h3 {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .text h3 {
+  color: #2e2e2e;
+}
+
+.container .box .content .text p {
+  color: #999;
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .text p {
+  color: #2e2e2e;
+}
+
+.container .box .content .text a {
+  position: relative;
+  background: var(--clr);
+  color: #2e2e2e;
+  padding: 8px 15px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .text a {
+  background: #2e2e2e;
+  color: var(--clr);
+}
